@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+    box-sizing: border-box; 
+}
+
+
+/* Header section start's from here */
+
+header{
+    display:flex;
+    background-color:#ffffff;
+
+    height:80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+
+}
+
+.myntra_home{
+    height:45px;
+    width:53px;
+}
+
+.logo_container{
+    margin-left:4%;
+}
+
+.action_bar{
+    margin-right: 4%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width:500px;
+    justify-content: space-evenly;
+
+}
+
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#282C3F;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:25px 0;
+    border-bottom:2px solid #ffffff ;
+
+}
+
+.nav_bar a:hover{
+    border-bottom:2px solid #f54e77 ;
+}
+
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+
+
+.search_bar{
+    height:40px;
+    min-width:200px;
+    width:30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.search_icon{
+    box-sizing: content-box;
+    height:20px;
+    padding:10px;
+    background-color: #f5f5f6;
+    color:#282C3F;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+
+
+}
+
+.search_input{
+    color:aliceblue;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border:0;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.action_bar{
+    display:flex;
+    min-width: 200px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.action_conatiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.action_name{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#282C3F;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:25px 0;
+    border-bottom:2px solid #ffffff ;
+    
+}
+
+.action_name:hover{
+    border-bottom:2px solid #f54e77 ;
+}
+
+
+/* Main section start's from here */
+
+.banner_container{
+    margin: 40px 0;
+
+}
+
+.banner_image{
+    width:100%;
+}
+
+
+.category_heading{
+    text-transform: uppercase;
+    color:#3e4152;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    margin:50px 0 10px 30px;
+    max-height:2em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.sale_item{
+    height:250px;
+
+}
+
+
+.footer_container{
+    display:flex;
+    padding:30px 0 40px 0;
+    background:#fafbfc ;
+    justify-content: space-evenly;
+    border: 1px solid  whitesmoke;
+}
+
+.footer_col{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer_col h3{
+    color:#282C3F;
+    font-size: 10px;
+    margin-bottom:25px;
+    text-decoration: underline;
+}
+
+.footer_col a{
+    color:#696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright{
+    color:#94969f;
+    text-align: center;
+    padding: 15px;
+
+}
